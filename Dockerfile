@@ -6,7 +6,7 @@
 
 FROM stackbrew/ubuntu:14.04
 
-MAINTAINER Dale-Kurt Murray "dalekurt.murray@gmail.com"
+MAINTAINER jmarsh.ext "jmarsh.ext@aviatainc.com"
 
 # Basic environment setup
 RUN apt-get update; apt-get install -y unzip wget supervisor docker.io openssh-server
